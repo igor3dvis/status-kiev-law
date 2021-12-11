@@ -1,0 +1,7 @@
+.idea
+.vscode
+.Ds_Store
+*.iml
+*.xml
+# dependencies
+**/node_modules

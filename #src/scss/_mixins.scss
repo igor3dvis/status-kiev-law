@@ -1,0 +1,18 @@
+// flex ====================================================================
+@mixin block-flex {
+    display: flex;
+    align-items: center;
+}
+
+// flex centred ============================================================
+@mixin block-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// =========================================================================
+@mixin scale-revers {
+    transform: scaleX(0.9);
+    transform: scaleY(0.83);
+}
