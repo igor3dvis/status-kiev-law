@@ -1,54 +1,62 @@
-// ======================================================================================================================
 .header {
     width: 100%;
     height: 100vh;
     position: relative;
-}
-
-
-  .header {
     .menu-wrapper {
+        display: flex;
+        align-items: center;
+    justify-content: center;
         box-shadow: 0 -1px 10px 1px #c5c5c5;
-      .main-logo {
-        &__ref {
-          &:hover {}
-          &:active {}
-          &:focus {}
+        .main-logo {
+            &__ref {
+                &:hover {
+                }
+            }
+            .main-logo__text {
+            }
         }
-        .main-logo__text {
+        .menu__list {
+            
+            
+            li {
+                
+            }
+            .menu__item {
+                color: $main-color;
+                &:hover {
+                }
+                &:active {
+                }
+                &:focus {
+                }
+            }
+            .menu__item.current {
+                &:hover {
+                }
+                &:active {
+                }
+                &:focus {
+                }
+            }
         }
-      }
-      .menu__list {
-        li {
+        .menu__smm-wrapper {
+            .smm-wrapper_item {
+            }
         }
-        .menu__item {
-          &:hover {}
-          &:active {}
-          &:focus {}
+        .menu__contacts {
+            .contacts__phone {
+            }
+            a {
+                &:hover {
+                }
+                &:active {
+                }
+                &:focus {
+                }
+            }
         }
-        .menu__item.current {
-          &:hover {}
-          &:active {}
-          &:focus {}
-        }
-      }
-      .menu__smm-wrapper {
-        .smm-wrapper_item {
-        }
-      }
-      .menu__contacts {
-        .contacts__phone {
-        }
-        a {
-          &:hover {}
-          &:active {}
-          &:focus {}
-        }
-      }
     }
-  }
-
-
+}
 
 // burger-menu ==========================================================================================================
 // .icon-menu {
