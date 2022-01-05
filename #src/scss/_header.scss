@@ -3,56 +3,57 @@
     height: 100vh;
     position: relative;
     .menu-wrapper {
+        height: 20vh;
         display: flex;
         align-items: center;
-    justify-content: center;
+        justify-content: space-around;
         box-shadow: 0 -1px 10px 1px #c5c5c5;
         .main-logo {
+            text-transform: uppercase;
+            color: $main-design-color;
             &__ref {
                 &:hover {
                 }
             }
             .main-logo__text {
+                color: $main-design-color;
             }
         }
-        .menu__list {
-            
-            
-            li {
-                
-            }
-            .menu__item {
-                color: $main-color;
-                &:hover {
+
+        .central-block {
+            display: flex;
+            .menu__list {
+                display: flex;
+                text-transform: uppercase;
+                li {
+                    padding-left: 1em;
                 }
-                &:active {
+                .menu__item {
+                    color: $main-color;
+                    &:hover {
+                    }
                 }
-                &:focus {
-                }
-            }
-            .menu__item.current {
-                &:hover {
-                }
-                &:active {
-                }
-                &:focus {
+                .menu__item.current {
+                    &:hover {
+                    }
+                    
                 }
             }
-        }
-        .menu__smm-wrapper {
-            .smm-wrapper_item {
+            .menu__smm-wrapper {
+                padding-left: 3em;
+                .smm-wrapper_item {
+                    padding-left: 1em;
+                }
             }
         }
         .menu__contacts {
             .contacts__phone {
             }
             a {
+                color: $main-design-color;
                 &:hover {
                 }
-                &:active {
-                }
-                &:focus {
-                }
+               
             }
         }
     }
