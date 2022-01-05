@@ -1,9 +1,0 @@
-
-._container {
-    max-width: $maxWidthContainer;
-    margin: 0 auto;
-    padding: 0 10px 0 10px;
-    @media (max-width: 480.98px) {
-		min-width: $minWidth;
-	}
-}
