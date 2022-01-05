@@ -125,12 +125,12 @@ a {
 
 .header {
   width: 100%;
-  height: 100vh;
   position: relative;
+  margin-bottom: 1em;
 }
 
 .header .menu-wrapper {
-  height: 20vh;
+  height: 6em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,6 +150,7 @@ a {
 
 .header .menu-wrapper .main-logo .main-logo__text {
   color: #d88407;
+  font-size: 2em;
 }
 
 .header .menu-wrapper .central-block {
@@ -191,8 +192,66 @@ a {
   padding: 0 10px 0 10px;
 }
 
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services-container .all-services-list {
+  padding-left: 2em;
+  line-height: 2em;
+}
+
+.services-container .all-services-list .all-services_list {
+  padding-left: 1em;
+}
+
+.services-container .services-block {
+  line-height: 2em;
+  background-color: #f5efd4;
+  border-radius: 1.4em;
+  margin-bottom: 1em;
+}
+
+.services-container .services-block .services-title {
+  padding: 2em 2em 1em 2em;
+}
+
+.services-container .services-block .servic-describe_wrapper {
+  padding: 0 2em 1em 2em;
+}
+
+.services-container .services-block .services-submit-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 0.4em;
+  padding-bottom: 2em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.services-container .services-block .services-submit-wrapper .services-submit-wrapper_btn {
+  padding: 0.2em 2em;
+  background-color: #cfcec9;
+  border: none;
+  border-radius: 1em;
+  -webkit-box-shadow: 2px 3px 2px 1px #c5c5c5;
+          box-shadow: 2px 3px 2px 1px #c5c5c5;
+}
+
+.services-container .services-block .services-submit-wrapper .services-submit-wrapper_btn:hover {
+  -webkit-box-shadow: 2px 3px 2px 1px #969595;
+          box-shadow: 2px 3px 2px 1px #969595;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media (max-width: 480.98px) {
